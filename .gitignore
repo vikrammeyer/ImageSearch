@@ -1,0 +1,6 @@
+env/
+vacation_dataset/
+__pycache__/
+.vscode/
+.DS_STORE
+index.csv
