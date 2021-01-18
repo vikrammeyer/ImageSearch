@@ -1,5 +1,5 @@
 # Image Search Overview
-This project implements a search function for similar images based on an input image. Images are stored on the disk and a MySQL database stores the path to the images and the feature vector that describes the images and is used to determine how similar images are to each other. A command line interface built with argparse is used to setup the database and search for similar images.
+This project implements a search function for similar images based on an input image. Images are stored on the disk and a MySQL database stores the path to the images and the feature vector that describes the images and is used to determine how similar images are to each other. A command line interface built with argparse is used to setup the database and search for similar images. [Idea/math behind the image search](https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/).
 
 ## Setting up and Running Image Search
 1. Download the 1.1 GB [INRIA holiday dataset](http://lear.inrialpes.fr/people/jegou/data.php#holidays) to the project's root directory 

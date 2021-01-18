@@ -53,11 +53,6 @@ def get_query_features(query_img):
     return cd.get_features(query_img)
 
 def iter_row(cursor,size=10):
-	""" Generator that chunks the database calls into a series of fetchmany() calls
-			Args:
-				cursor (cusor object): MySQLConnection Cursor object
-				size (int): number of items to be returned in each fetchmany() call
-	"""
 	while True:
 		rows = cursor.fetchmany(size)
 		if not rows:
