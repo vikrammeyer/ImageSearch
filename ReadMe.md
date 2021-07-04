@@ -19,3 +19,8 @@ This project implements a search function for similar images based on an input i
 5. Run `search_db.py` to find similar images to the passed in image (Can run as many times as desired)
    - Run in terminal: `python3 search_db.py --query image_path`
    - Can add `--limit 5` to limit the number of results to a specific number (default is 10) 
+
+## Enhancement Ideas
+[ ] Build out an API interface
+[ ] Containerize with Docker
+[ ] Host on a cloud service
