@@ -21,6 +21,6 @@ This project implements a search function for similar images based on an input i
    - Can add `--limit 5` to limit the number of results to a specific number (default is 10) 
 
 ## Enhancement Ideas
-[ ] Build out an API interface
-[ ] Containerize with Docker
-[ ] Host on a cloud service
+- Build out an API interface
+- Containerize with Docker
+- Host on a cloud service
