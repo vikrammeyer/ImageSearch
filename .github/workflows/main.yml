@@ -19,7 +19,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - name: Frontend Tests
-        run: | 
-          npm ci
-          npm test --workspace=./frontend
+      - name: Install Dependencies
+        run: npm ci
+      - name: Karma UI Tests
+        run: npm test -- --watchAll=false
