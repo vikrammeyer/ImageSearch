@@ -1,4 +1,4 @@
 # Image Search
-This fullstack project has a frontend and a backend that serve the purpose of uploading and downloading images from a server while at the same time providing image search functionality.
+![build status](https://github.com/meyerv11045/ImageSearch/workflows/build.yml/badge.svg)
 
-Images are stored on the disk and a MySQL database stores the path to the images and the feature vector that describes the images and is used to determine how similar images are to each other. A command line interface built with argparse is used to setup the database and search for similar images. [Idea/math behind the image search](https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/).
+This fullstack project has a frontend and a backend that serve the purpose of uploading and downloading images from a server while at the same time providing image search functionality.
