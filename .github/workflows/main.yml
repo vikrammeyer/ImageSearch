@@ -22,4 +22,4 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Karma UI Tests
-        run: npm test --watch=false
+        run: npm test -- --watch=false
